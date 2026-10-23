@@ -6,7 +6,8 @@ const nextConfig: NextConfig = {
   reactStrictMode: true,
   images: {
     domains: ["fakestoreapi.com"]
-  }
+  },
+  output: "export",
 };
 
 export default nextConfig;
